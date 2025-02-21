@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(27, 27, 109);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(155, 152, 152);
+}
+.left {
+    font-size: 2rem;
+}
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+    margin: 23px;
+    padding-bottom: 5%;
+}
+.firstSection div{
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-left: 10%;
+    padding-top: 3.5%;
+}
+
+.leftSection .btn {
+    margin: 20px;
+    padding: 2px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(114 114 124);
+    border: 2px solid white;
+}
+.buttons{
+    display: flex;
+}
+
+.rightsection {
+    background-color: rgb(0, 0, 33);
+    display: flex;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+}
+
+.secondSection div {
+    max-width: 80vw;   
+}
+.secondSectionFirstDiv{
+    padding-left: 10%;
+    padding-top: 1%;
+}
+.greyText {
+    font-size: small;
+}
+main hr{
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.box {
+    background-color: white;
+    width: 2000vh;
+    height: 2px;
+    margin: 58px;
+    margin-left: 145px;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 55px;
+    width: 1px;
+    background-color: white;
+    margin: 0 180px;
+}
+.verticalTitle{
+    position: relative;
+    top: 53px;
+    width: 120px;
+
+}
+.verticalDescription{
+    position: relative;
+    top: 61px;
+    width: 100px;
+    font-size: smaller;
+
+}
+footer{
+    margin-top: 340px;
+    background-color: rgb(41 68 110);
+    display: flex;
+    height: 120px;
+}
+.flex {
+    font-size: x-small;
+}

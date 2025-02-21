@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Abhishek Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <span id="element"></span>
+                <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                <script>
+                    var typed = new Typed('#element', {
+                      strings: ['Hi, My name is Abhishek and i am a Web Developer'],
+                      typeSpeed: 50,
+                    });
+                  </script>
+                  <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Github link</button>
+                  </div>
+                </div>
+            <div class="rightSection"><img src="myimg.png" alt=""></div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <div class="secondSectionFirstDiv">
+                <span class="greyText">What i have done so far</span>
+                <h1>Work Experience</h1>
+            </div>
+            <div class="box">
+                <div class="vertical">
+                    <div class="verticalTitle">Converges (2016-2018)</div>
+                    <div class="verticalDescription">Worked as Desktop support Enggineer</div>
+                </div>
+                <div class="vertical">
+                    <div class="verticalTitle">HCL (2018-2019)</div>
+                    <div class="verticalDescription">Worked as Senior Analyst</div>
+                </div>
+                <div class="vertical">
+                    <div class="verticalTitle">HCL (2019-2014)</div>
+                    <div class="verticalDescription">Worked as cloud engg and later moved to Front end Development</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="first">
+                <h1>Abhishek's Developer Portfolio</h1>
+            </div>
+            <div class="second"></div>
+            <div class="third"></div>
+            <div class="fourth"></div>
+        </div>
+
+    </footer>
+</body>
+</html>
